@@ -1,0 +1,3 @@
+br/com/devmedia/projetojsf/web/model/Lembrete.class
+br/com/devmedia/projetojsf/web/bean/LembreteBean.class
+br/com/devmedia/projetojsf/web/mapper/LembreteMapper.class

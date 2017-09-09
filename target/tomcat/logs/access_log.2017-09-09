@@ -1,0 +1,12 @@
+127.0.0.1 - - [09/Sep/2017:00:19:18 -0400] "GET /lembretes HTTP/1.1" 302 - http-bio-9090-exec-1 0
+127.0.0.1 - - [09/Sep/2017:00:19:19 -0400] "GET /lembretes/ HTTP/1.1" 200 801 http-bio-9090-exec-2 970
+127.0.0.1 - - [09/Sep/2017:00:19:20 -0400] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
+127.0.0.1 - - [09/Sep/2017:00:19:23 -0400] "GET /lembretes/adicionar.xhtml;jsessionid=4501E135E0FFDD6C9E033278D577D11F HTTP/1.1" 200 274 http-bio-9090-exec-4 22
+127.0.0.1 - - [09/Sep/2017:00:42:13 -0400] "GET /lembretes HTTP/1.1" 302 - http-bio-9090-exec-1 0
+127.0.0.1 - - [09/Sep/2017:00:42:15 -0400] "GET /lembretes/ HTTP/1.1" 200 801 http-bio-9090-exec-2 1095
+127.0.0.1 - - [09/Sep/2017:00:42:22 -0400] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
+127.0.0.1 - - [09/Sep/2017:00:42:24 -0400] "GET /lembretes/adicionar.xhtml;jsessionid=483C8AC720148849205A076E12ACDC3E HTTP/1.1" 200 1150 http-bio-9090-exec-4 134
+127.0.0.1 - - [09/Sep/2017:00:42:58 -0400] "GET /lembretes/adicionar.xhtml;jsessionid=483C8AC720148849205A076E12ACDC3E HTTP/1.1" 200 1107 http-bio-9090-exec-1 794
+127.0.0.1 - - [09/Sep/2017:00:43:37 -0400] "GET /lembretes/adicionar.xhtml;jsessionid=483C8AC720148849205A076E12ACDC3E HTTP/1.1" 200 1107 http-bio-9090-exec-1 762
+127.0.0.1 - - [09/Sep/2017:00:44:16 -0400] "GET /lembretes/adicionar.xhtml;jsessionid=483C8AC720148849205A076E12ACDC3E HTTP/1.1" 200 1108 http-bio-9090-exec-1 734
+127.0.0.1 - - [09/Sep/2017:00:56:07 -0400] "POST /lembretes/adicionar.xhtml HTTP/1.1" 500 4558 http-bio-9090-exec-3 62
