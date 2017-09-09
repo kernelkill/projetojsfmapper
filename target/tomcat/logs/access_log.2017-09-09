@@ -26,3 +26,6 @@
 127.0.0.1 - - [09/Sep/2017:16:54:15 -0400] "GET /lembretes/remover.xhtml?lembrete=1 HTTP/1.1" 200 761 http-bio-9090-exec-2 223
 127.0.0.1 - - [09/Sep/2017:17:01:40 -0400] "GET /lembretes/ HTTP/1.1" 200 828 http-bio-9090-exec-1 712
 127.0.0.1 - - [09/Sep/2017:17:01:45 -0400] "GET /lembretes/remover.xhtml?lembrete=1 HTTP/1.1" 200 743 http-bio-9090-exec-2 184
+127.0.0.1 - - [09/Sep/2017:17:30:00 -0400] "GET /lembretes/ HTTP/1.1" 200 864 http-bio-9090-exec-1 696
+127.0.0.1 - - [09/Sep/2017:17:30:04 -0400] "GET /lembretes/remover.xhtml?lembrete=1 HTTP/1.1" 200 747 http-bio-9090-exec-2 185
+127.0.0.1 - - [09/Sep/2017:17:30:06 -0400] "POST /lembretes/remover.xhtml HTTP/1.1" 500 3955 http-bio-9090-exec-3 23

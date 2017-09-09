@@ -59,4 +59,17 @@ public class LembreteBean {
 
         FacesContext.getCurrentInstance().addMessage(null, message);
     }
+
+    public String remover(){
+
+        mapper.remover(lembrete);
+
+        lembrete = new Lembrete();
+
+        FacesContext context = FacesContext.getCurrentInstance();
+        context.addMessage(null, new FacesMessage("Lembrete Adicionado com Sucesso!"));
+        context.getExternalContext().getFlash().setKeepMessages(true);
+
+        return "index.xhtml?faces-redirect-true";
+    }
 }
