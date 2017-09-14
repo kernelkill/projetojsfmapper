@@ -20,7 +20,7 @@
 
     <h1>Deseja remover esse lembrete "<h:outputText value="#{lembreteBean.lembrete.titulo}"/>"? </h1>
 
-    <h:message/>
+    <h:messages/>
 
     <h:form rendered="#{lembreteBean.lembrete.id != 0}">
         <h:commandButton value="Confirmar" action="#{lembreteBean.remover}"/>

@@ -12,7 +12,7 @@ import java.util.List;
 public class LembreteMapper {
 
     private List<Lembrete> lembretes = new ArrayList<Lembrete>();
-
+/*
     public LembreteMapper() {
         Instant agora = LocalDate.now().atStartOfDay()
                 .atZone(ZoneId.systemDefault()).toInstant();
@@ -25,7 +25,7 @@ public class LembreteMapper {
         lembrete.setDataInicio(Date.from(agora));
 
         adicionar(lembrete);
-    }
+    }*/
 
     public List<Lembrete> getLembretes() {
         return lembretes;

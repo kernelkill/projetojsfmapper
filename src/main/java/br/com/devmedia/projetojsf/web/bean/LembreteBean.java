@@ -29,7 +29,8 @@ public class LembreteBean {
     }
 
     public List<Lembrete> getLembretes(){
-        return mapper.getLembretes();
+
+       return mapper.getLembretes();
     }
 
 
@@ -52,12 +53,16 @@ public class LembreteBean {
 
         if (lembrete == null || lembrete.getId() == 0){
             lembrete = new Lembrete();
+
+            FacesMessage message = new FacesMessage("Nenhum lembrete encontrado!");
+            message.setSeverity(FacesMessage.SEVERITY_ERROR);
+            FacesContext.getCurrentInstance().addMessage(null, message);
+
+        }else {
+            FacesMessage message = new FacesMessage("Lembretes encontrado!");
+            message.setSeverity(FacesMessage.SEVERITY_ERROR);
+            FacesContext.getCurrentInstance().addMessage(null, message);
         }
-
-        FacesMessage message = new FacesMessage("Lembrete não encontrado!");
-        message.setSeverity(FacesMessage.SEVERITY_ERROR);
-
-        FacesContext.getCurrentInstance().addMessage(null, message);
     }
 
     public String remover(){
@@ -67,7 +72,7 @@ public class LembreteBean {
         lembrete = new Lembrete();
 
         FacesContext context = FacesContext.getCurrentInstance();
-        context.addMessage(null, new FacesMessage("Lembrete Adicionado com Sucesso!"));
+        context.addMessage(null, new FacesMessage("Lembrete removido com Sucesso!"));
         context.getExternalContext().getFlash().setKeepMessages(true);
 
         return "index.xhtml?faces-redirect-true";
