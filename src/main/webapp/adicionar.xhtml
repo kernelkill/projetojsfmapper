@@ -7,6 +7,10 @@
 <h:head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
+    <f:metadata>
+          <f:event type="preRenderView" listener="#{lembreteBean.init}"/>
+    </f:metadata>
+
     <title>Add Lembrete</title>
 </h:head>
 <h:body>
